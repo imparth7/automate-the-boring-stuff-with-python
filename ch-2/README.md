@@ -1,14 +1,14 @@
 # Chapter 2: Flow Control
 
-# Boolean
+## Boolean
 True
 False
 
-# Comperison Operator
+## Comperison Operator
 ==, !=, >, <, >=, <=
 
-# Boolean Operators
-## Binary Boolean Operators
+## Boolean Operators
+### Binary Boolean Operators
 True and True
 True and False
 False and False
@@ -19,12 +19,12 @@ True or False
 False or False
 False or True
 
-## not Operator
+### not Operator
 not True
 not False
 not not True
 
-# Flow Control
+## Flow Control
 ```py
 if condition:
     first statement
@@ -34,20 +34,20 @@ else:
     default statement
 ```
 
-# Loop Statements
-## while loop
+## Loop Statements
+### while loop
 ```py
 while condition:
     statements
 ```
 
-## for loop
+### for loop
 ```py
 for item in list/range(start, end, step):
     statements
 ```
 
-# Ending a Program Early with sys.exit()
+## Ending a Program Early with sys.exit()
 ```py
 import sys
 while True:
@@ -59,7 +59,7 @@ while True:
 ```
 
 
-# Practice Questions
+## Practice Questions
 
 1. What are the two values of the Boolean data type? How do you write them?
 > True and False
